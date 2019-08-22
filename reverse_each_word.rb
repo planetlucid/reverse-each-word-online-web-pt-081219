@@ -1,4 +1,7 @@
 def reverse_each_word (string)
-string.each do |word|
-puts "#{word.reverse}"
+  new_sentence = ""
+  string.each do |word|
+  new_string<< "#{word.reverse}"
+  
+  end
 end
